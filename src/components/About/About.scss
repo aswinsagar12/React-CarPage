@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  min-height: 20rem;
+  min-width: 25rem;
+  padding: 20px 20px 30px 30px;
+}
+
+.item img {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.inner-carousel {
+  display: flex;
+  padding-left: 250px;
+}
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+// .container {
+//   position: relative;
+//   width: 580px;
+//   height: 460px;
+//   // margin: 10px 300px 20px 80px;
+
+//   h1 {
+//     position: absolute;
+//     font-family: "Monument Extended";
+//     font-weight: lighter;
+//     font-size:64px;
+//   }
+
+//   .cont1{
+//     background: url() no-repeat 50% 50% ;
+//   }
+// }
+// .container{
+//   margin:200px 0 0 200px
+// }
